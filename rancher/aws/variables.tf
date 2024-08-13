@@ -17,7 +17,7 @@ variable "aws_secret_key" {
 variable "aws_session_token" {
   type        = string
   description = "AWS session token used to create AWS infrastructure"
-  default     = ""
+#  default     = ""
 }
 
 variable "aws_region" {
