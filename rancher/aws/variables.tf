@@ -47,7 +47,7 @@ variable "instance_type" {
 variable "windows_instance_type" {
   type        = string
   description = "Instance type used for all EC2 windows instances"
-  default     = "t3a.large"
+  default     = "t3a.medium"
 }
 
 variable "rancher_kubernetes_version" {
